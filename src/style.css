@@ -1,7 +1,3 @@
-:root{
-
-}
-
 /* Reset Default values */
 body, div, span, h1, h2, h3, h4,
 p, img, footer, header{
@@ -12,3 +8,22 @@ p, img, footer, header{
     font: inherit;
     vertical-align: baseline;
 }
+
+:root{
+    --main-color: rgb(255, 247, 240);
+    --freeConsultationBlack: rgb(3, 3, 3);
+    --freeConsultationLightRed: rgb(235, 177, 101); 
+}
+
+/* Mobile Style / Mobile First */
+
+body{
+    box-sizing: border-box;
+    width: 375px;
+    height: 3214px;
+    background-color: var(--main-color);
+    font-size: 16px;
+    font-family: 'Plus Jakarta Sans';
+}
+
+
