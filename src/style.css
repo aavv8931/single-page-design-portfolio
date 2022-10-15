@@ -3,16 +3,13 @@ body, div, span, h1, h2, h3, h4,
 p, img, footer, header{
     margin: 0;
     padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
 }
 
 :root{
     --main-color: rgb(255, 247, 240);
-    --freeConsultationBlack: rgb(3, 3, 3);
-    --freeConsultationLightRed: rgb(235, 177, 101); 
+    --colorBlack: rgb(3, 3, 3);
+    --freeConsultationLightRed: rgb(235, 177, 101);
+    --colorMediumBrowm: rgb(122, 116, 110);
 }
 
 /* Mobile Style / Mobile First */
@@ -25,5 +22,71 @@ body{
     font-size: 16px;
     font-family: 'Plus Jakarta Sans';
 }
+
+/* Header  */
+
+header{
+    margin: 16px 16px 32px 16px;
+    width: 343px;
+    height: 290px;
+    
+}
+
+.head{
+    width: auto;
+    height: 48px;
+    margin-bottom: 32px;
+}
+
+.head img{
+    width: 48px;
+    height: 48px;
+    
+}
+
+.head button{
+    width: 176px;
+    height: 44px;
+    background: var(--colorBlack);
+    border-radius: 28px;
+    color: var(--main-color);
+    border: none;
+    font-weight: 700;
+    font-size: 0.875rem;
+    line-height: 28px;
+    list-style: normal;
+    float: right;
+    margin-top: 2px;
+}
+
+.intro{
+    width: auto;
+    height: 210px;
+}
+
+.title{
+    width: auto;
+    height: 90px;
+    font-weight: 700;
+    font-size: 2.25rem;
+    line-height: 45.36px;
+    text-align: center;
+    color: var(--colorBlack);
+    margin-bottom: 16px;
+}
+
+.description{
+    width: 285px;
+    height: 104px;
+    margin: 0 auto;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 26px;
+    text-align: center;
+    color: var(--colorMediumBrowm);
+}
+
+
+
 
 
