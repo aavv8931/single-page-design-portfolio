@@ -10,6 +10,8 @@ p, img, footer, header{
     --colorBlack: rgb(3, 3, 3);
     --freeConsultationLightRed: rgb(235, 177, 101);
     --colorMediumBrowm: rgb(122, 116, 110);
+    --colorGalacticBlue: rgb(117, 92, 222);
+    --colorWhite: #fff;
 }
 
 /* Mobile Style / Mobile First */
@@ -86,6 +88,50 @@ header{
     color: var(--colorMediumBrowm);
 }
 
+/* Main - */
+/* Lo hacemos por ahora de 1866 px desde las imagenes 
+hasta el brief de Ana. Faltaria ver si dentro de este 
+Main se puede incluir el carrousel y posteriormente
+ el Contact section */
+
+ main{
+    width: 343px;
+    height: 1866px;
+    margin: 0 16px;
+ }
+
+/* Images and Subjects Section */
+
+.images{
+    height: 1164px;
+    margin-bottom: 100px;
+}
+
+ /* Graphic Design div */
+
+#graphic-design{
+    width: 100%;
+    height: 364px;
+    background-color: var(--colorGalacticBlue);
+    border-radius: 8px;
+}
+
+#gd-img{
+    /* margin: 24px 24px 94px 191px; */
+    position: relative;
+    top: 24px;
+    left: 191px;
+}
+
+#graphic-design h3{
+    width: 210px;
+    height: 30px;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 30px;
+    color: var(--colorWhite);
+    margin: 114px 109px 24px 24px;
+}
 
 
 
