@@ -14,7 +14,9 @@ p, img, footer, header{
     --colorWhite: #fff;
     --colorSummerYellow: rgb(246, 165, 96);
     --colorLightPink: rgb(243, 158, 158);
-    --colorLightRed: rgb(235, 117, 101)
+    --colorLightRed: rgb(235, 117, 101);
+    --colorCyan: rgb(92, 196, 183);
+    --colorPurple: rgb(85, 32, 73)
 }
 
 /* Mobile Style / Mobile First */
@@ -210,6 +212,63 @@ Main se puede incluir el carrousel y posteriormente
     color: var(--colorWhite);
     margin: 36px 156px 24px 24px;
 }
+
+/* Group3 */
+
+.group3{
+    width: 100%;
+    height: 389px;
+    margin-top: 24px;
+}
+/* Subgroup1 */
+
+.subgroup{
+    width: 100%;
+    height: 182px;
+    border-radius: 8px;
+}
+
+.sub1 #photography-img{
+    position: relative;
+    top: 24px;
+    left: 159px;
+}
+.sub1{
+    background-color: var(--colorCyan);
+    margin-bottom: 24px;
+}
+
+.sub2{
+    background-color: var(--colorPurple);
+}
+
+.sub2 #motion-graphics{
+    position: relative;
+    top: 24px;
+    left: 191px;
+}
+
+.subgroup h3{
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 30px;
+    color: var(--colorWhite);
+    height: 30px;
+    margin-top: 60px;
+    margin-left: 24px;
+    margin-bottom: 24px;
+}
+
+.sub1 #photo{
+    width: 182px;
+}
+
+.sub2 #motion{
+    width: 227px;
+}
+
+
+
 
 
 
