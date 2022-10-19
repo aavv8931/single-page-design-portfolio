@@ -105,7 +105,7 @@ Main se puede incluir el carrousel y posteriormente
 
  main{
     width: 343px;
-    height: 1866px;
+    height: 2656px; /* 1866 + 338 caurosel + 100 margin bottom + 325 contact*/
     margin: 0 16px;
  }
 
@@ -278,6 +278,7 @@ Main se puede incluir el carrousel y posteriormente
 .hero-brief{
     width: 100%;
     height: 602px;
+    margin-bottom: 100px;
 }
 
 /* Hero div img */
@@ -296,8 +297,7 @@ Main se puede incluir el carrousel y posteriormente
 
 .hero-content{
     width: 100%;
-    height: 262px;
-    margin-bottom: 100px;
+    height: 262px;   
 }
 
 .hero-title{
@@ -325,6 +325,90 @@ Main se puede incluir el carrousel y posteriormente
     background: var(--colorLightRed);
     color: var(--colorWhite);
     margin: 0 84px;
+}
+
+/* Carousel Style */
+
+.container{
+    height: 338px;
+    margin-bottom: 100px;
+}
+
+.container-heading{
+    width: 102px;
+    height: 30px;
+    margin: 0 auto 32px auto;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 30px;
+    text-align: center;
+    color: var(--colorBlack);
+}
+
+.carousel{
+    max-width: 600px;
+    position: relative;
+    margin: 0 auto;
+}
+
+/* Style for carousel pics */
+
+.carousel .carousel-item,
+.carousel .carousel-item-hidden{
+    display: none;
+}
+
+.carousel .carousel-item-visible{
+    display: block;
+}
+
+.carousel .carousel-item img{
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+}
+
+
+
+
+/* Style for the Carousel  */
+
+.carousel-btns{
+    width: 144px;
+    height: 64px;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+}
+
+.btn{
+    width: 64px;
+    height: 64px;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: 15px 16px;
+    border-radius: 50%;
+    background-position: center;
+    cursor: pointer;
+}
+
+.btn-left{
+    background-image: url(./assets/icon-arrow-left.svg);
+    margin-right: 16px;
+}
+
+.btn-right{
+    background-image: url(./assets/icon-arrow-right.svg);
+}
+
+@keyframes fadeVisibililty {
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
 }
 
 
