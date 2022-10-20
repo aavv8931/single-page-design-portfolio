@@ -41,7 +41,7 @@ header{
 }
 
 .head{
-    width: auto;
+    width: 343px;
     height: 48px;
     margin-bottom: 32px;
 }
@@ -105,7 +105,7 @@ Main se puede incluir el carrousel y posteriormente
 
  main{
     width: 343px;
-    height: 2656px; /* 1866 + 338 caurosel + 100 margin bottom + 325 contact*/
+    height: 2806px; /* 1866 + 338 caurosel + 100 margin bottom + 352 contact*/
     margin: 0 16px;
  }
 
@@ -348,7 +348,7 @@ Main se puede incluir el carrousel y posteriormente
 .carousel{
     max-width: 600px;
     position: relative;
-    margin: 0 auto;
+    margin: 0 auto 32px auto;
 }
 
 /* Style for carousel pics */
@@ -365,11 +365,9 @@ Main se puede incluir el carrousel y posteriormente
 .carousel .carousel-item img{
     width: 100%;
     max-width: 600px;
-    height: auto;
+    height: 180px;
+    border-radius: 8px;
 }
-
-
-
 
 /* Style for the Carousel  */
 
@@ -411,6 +409,53 @@ Main se puede incluir el carrousel y posteriormente
     }
 }
 
+/* Contact Section */
+
+.contact{
+    width: 100%;
+    height: 352px;
+    background-color: var(--colorBlack);
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.contact-group{
+    width: 295px;
+    height: 255px;
+    padding: 49px 24px;
+}
+
+.contact-title{
+    width: 240px;
+    height: 33px;
+    font-size: 1.625rem;
+    line-height: 32.76px;
+    text-align: center;
+    font-weight: 700;
+    color: var(--main-color);
+    margin: 0 auto 24px auto;
+}
+
+.contact-desc{
+    width: 295px;
+    height: 130px;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 26px;
+    text-align: center;
+    color: var(--main-color);
+    margin: 0 auto 24px auto;
+}
+
+#contact-button{
+    margin: 0 auto 48px 55px;
+}
+
+/* Footer */
+
+footer{
+    margin: 0 auto;
+}
 
 
 
