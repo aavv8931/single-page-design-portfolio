@@ -457,6 +457,64 @@ footer{
     margin: 0 auto;
 }
 
+/* Media Query for Tablet 
+width: 768px & height: 2762px  */
+
+@media only screen and (min-width: 376px){
+
+    /* Tablet Body */
+    body{
+        width: 768px;
+        height: 2762px;
+    }
+
+    /* Header */
+
+    header{
+        width: 689px;
+        height: 266px;
+        margin: 34px 40px 64px 39px;
+    }
+
+    .head{
+        width: auto;
+        height: 64px;
+        margin-bottom: 64px;
+    }
+
+    .head img{
+        width: 64px;
+        height: 64px;
+    }
+
+    .button-tablet{
+        width: 228px;
+        height: 56px;
+        font-size: 1rem;
+        margin-top: 4px;
+    }
+
+    .intro{
+        width: auto;
+        height: 138px;
+    }
+
+    .title{
+        height: 55px;
+        font-size: 2.75rem;
+        line-height: 55px;
+        margin-bottom: 27px;
+    }
+
+    .description{
+        width: 573px;
+        height: 56px;
+        font-size: 1.125rem;
+        line-height: 28px;
+        
+    }
+}
+
 
 
 
