@@ -29,12 +29,14 @@ body{
     background-color: var(--main-color);
     font-size: 16px;
     font-family: 'Plus Jakarta Sans';
+    /* overflow-y: hidden; */
+    padding: 16px 16px;
 }
 
 /* Header  */
 
 header{
-    margin: 16px 16px 32px 16px;
+    margin-bottom: 32px;
     width: 343px;
     height: 290px;
     
@@ -49,7 +51,6 @@ header{
 .head img{
     width: 48px;
     height: 48px;
-    
 }
 
 button{
@@ -98,15 +99,11 @@ button{
 }
 
 /* Main - */
-/* Lo hacemos por ahora de 1866 px desde las imagenes 
-hasta el brief de Ana. Faltaria ver si dentro de este 
-Main se puede incluir el carrousel y posteriormente
- el Contact section */
 
  main{
     width: 343px;
-    height: 2806px; /* 1866 + 338 caurosel + 100 margin bottom + 352 contact*/
-    margin: 0 16px;
+    height: 2756px; /* 1866 + 338 caurosel + 100 margin bottom + 352 contact*/
+    margin-bottom: 40px;
  }
 
 /* Images and Subjects Section */
@@ -407,6 +404,7 @@ Main se puede incluir el carrousel y posteriormente
     100%{
         opacity: 1;
     }
+
 }
 
 /* Contact Section */
@@ -454,26 +452,32 @@ Main se puede incluir el carrousel y posteriormente
 /* Footer */
 
 footer{
-    margin: 0 auto;
+    width: 343px;
+    height: 48px;
+} 
+
+footer img{
+    width: 48px;
+    height: 48px;
 }
 
 /* Media Query for Tablet 
 width: 768px & height: 2762px  */
 
 @media only screen and (min-width: 376px){
-
-    /* Tablet Body */
-    body{
-        width: 768px;
-        height: 2762px;
-    }
+        /* Tablet Body */
+  body{
+    width: 768px;
+    height: 2762px;
+    padding: 34px 40px ;
+}
 
     /* Header */
 
     header{
         width: 689px;
         height: 266px;
-        margin: 34px 40px 64px 39px;
+        margin-bottom: 64px;
     }
 
     .head{
@@ -510,9 +514,84 @@ width: 768px & height: 2762px  */
         width: 573px;
         height: 56px;
         font-size: 1.125rem;
-        line-height: 28px;
-        
+        line-height: 28px; 
     }
+
+    /* Main - Tablet size */
+
+    main{
+        width: 690px;  /* estar pendiente de los demas, puede que quede muy pequeno*/
+        height: 2222px; /*Esto incluye: 570 + 120 + 364 + 120 + 576 + 120 + 352 */
+        margin-bottom: 56px;
+    }
+
+    /* Images and Subjects Section */
+
+    .images{
+        height: 570px;
+        margin-bottom: 120px;
+    }
+
+    /* Group1 - Graphic Design div */
+
+    #group1, .group2{
+        display: inline-block;
+    }
+
+    #group1{
+        width: 333px;
+        height: 364px;
+        margin: 0 21px 0 0; 
+    }
+
+    #gd-img{
+        left: 180px;
+    }
+
+    /* Group2 */
+
+    .group2{
+        width: 333px;
+    }
+
+    /* Subgroup1 */
+
+    .subgroup1{
+        display: flexbox;
+        flex-direction: row;
+    }
+
+    .float-child{
+        width: 155px;
+    }
+
+    .ui-ux{
+        margin-right: 23px;
+    }
+
+    /* Subgroup2 */
+
+    .subgroup2{
+        width: 333px;
+    }
+
+    /* Group3 */
+
+    .group3{
+        display: flexbox;
+        flex-direction: row;
+        height: 182px;
+    }
+
+    .subgroup{
+        width: 333px;
+        display: inline-block;
+    }
+
+    .sub1{
+        margin: 0 21px 0 0;
+    }
+
 }
 
 
