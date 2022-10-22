@@ -647,6 +647,31 @@ width: 768px & height: 2762px  */
     }
 
     /* Carousel Style */
+
+    .container{
+        height: 576px;
+        margin-bottom: 120px;
+    }
+
+    .container-heading{
+        width: 136px;
+        height: 40px;
+        margin-bottom: 56px;
+        font-size: 2rem;
+        line-height: 32px;
+    }
+
+    .carousel{
+        max-width: 800px;
+    }
+
+    /* Style for carousel pics */
+
+    .carousel .carousel-item img{
+        width: 100%;
+        max-width: 800px;
+        height: 360px;
+    }
 }
 
 
