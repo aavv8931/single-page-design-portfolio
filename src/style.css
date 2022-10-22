@@ -592,6 +592,61 @@ width: 768px & height: 2762px  */
         margin: 0 21px 0 0;
     }
 
+    /* Section Hero's briefs */
+
+    .hero-brief{
+        position: relative;
+        left: -83px;
+        width: 772px; 
+        height: 364px;
+        margin-bottom: 120px;
+        
+    }
+
+    /* Hero div img */
+
+    #hero-div{
+        margin: 0 42px 0 0;
+    }
+
+    #hero-div, .hero-content{
+        display: inline-block;
+    }
+
+    #hero-div #hero-img{
+        width: 364px;
+        height: 364px;
+        
+    }
+
+    /* Hero Content */
+
+    .hero-content{
+        width: 339px;
+        height: 364px;
+        vertical-align: top;
+    }
+
+    .hero-title{
+        height: 120px;
+        font-size: 2rem;
+        line-height: 40.32px;
+        text-align: left;
+    }
+
+    .hero-description{
+        height: 140px;
+        font-weight: 500;
+        font-size: 1.125rem;
+        line-height: 28px;
+        text-align: left;
+    }
+
+    .pinkButton{
+        margin: 0;
+    }
+
+    /* Carousel Style */
 }
 
 
