@@ -29,17 +29,15 @@ body{
     background-color: var(--main-color);
     font-size: 16px;
     font-family: 'Plus Jakarta Sans';
-    
     padding: 16px 16px;
 }
 
 /* Header  */
 
 header{
-    margin-bottom: 32px;
     width: 343px;
     height: 290px;
-    
+    margin-bottom: 32px;
 }
 
 .head{
@@ -124,7 +122,6 @@ button{
 }
 
 #gd-img{
-    /* margin: 24px 24px 94px 191px; */
     position: relative;
     top: 24px;
     left: 191px;
@@ -520,8 +517,8 @@ width: 768px & height: 2762px  */
     /* Main - Tablet size */
 
     main{
-        width: 690px;  /* estar pendiente de los demas, puede que quede muy pequeno*/
-        height: 2222px; /*Esto incluye: 570 + 120 + 364 + 120 + 576 + 120 + 352 */
+        width: 690px;   
+        height: 2222px; 
         margin-bottom: 56px;
     }
 
@@ -540,7 +537,6 @@ width: 768px & height: 2762px  */
 
     #group1{
         width: 333px;
-        height: 364px;
         margin: 0 21px 0 0; 
     }
 
@@ -757,7 +753,6 @@ width: 1440px & height: 2595px  */
     main{
         width: 1110px;
         height: 2017px;
-        margin-bottom: 56px;
     }
 
     /* Images and Subjects Section */
@@ -872,7 +867,6 @@ width: 1440px & height: 2595px  */
      /* Carousel Style */
 
      .container{
-        height: 576px;
         margin-bottom: 32px;
     }
 
