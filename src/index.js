@@ -42,6 +42,10 @@ const handleMoveToPrevSlide = (event) => {
 
 }
 
+// nextButton.addEventListener('click', function onClick() {
+//     nextButton.style.backgroundColor = 'salmon';
+//   });
+
 
 nextButton.addEventListener("click", handleMoveToNextSlide);
 prevButton.addEventListener("click", handleMoveToPrevSlide);
