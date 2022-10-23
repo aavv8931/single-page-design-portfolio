@@ -127,7 +127,7 @@ button{
     left: 191px;
 }
 
-#group1 h3{
+#group1 h2{
     width: 210px;
     height: 30px;
     font-weight: 700;
@@ -172,7 +172,7 @@ button{
     
 }
 
-.float-child h3{
+.float-child h2{
     margin: 60px 53.35px 24px 23.77px;
     color: var(--colorWhite);
     font-size: 1.5rem;
@@ -201,7 +201,7 @@ button{
     left: 190px;
 }
 
-.subgroup2 h3{
+.subgroup2 h2{
     width: 162px;
     height: 30px;
     font-weight: 700;
@@ -248,7 +248,7 @@ button{
     left: 191px;
 }
 
-.subgroup h3{
+.subgroup h2{
     font-weight: 700;
     font-size: 1.5rem;
     line-height: 30px;
@@ -814,7 +814,7 @@ width: 1440px & height: 2595px  */
         height: 158px;
     }
 
-    .sub2 h3{
+    .sub2 h2{
         margin-top: 40px;
     }
 
