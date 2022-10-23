@@ -1,0 +1,919 @@
+/* Reset Default values */
+body, div, span, h1, h2, h3, h4,
+p, img, footer, header{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --main-color: rgb(255, 247, 240);
+    --colorBlack: rgb(3, 3, 3);
+    --freeConsultationLightRed: rgb(235, 177, 101);
+    --colorMediumBrowm: rgb(122, 116, 110);
+    --colorGalacticBlue: rgb(117, 92, 222);
+    --colorWhite: #fff;
+    --colorSummerYellow: rgb(246, 165, 96);
+    --colorLightPink: rgb(243, 158, 158);
+    --colorLightRed: rgb(235, 117, 101);
+    --colorCyan: rgb(92, 196, 183);
+    --colorPurple: rgb(85, 32, 73);
+    --colorGrey: rgb(122, 116, 110);
+}
+
+/* Mobile Style / Mobile First */
+
+body{
+    box-sizing: border-box;
+    width: 375px;
+    height: 3214px;
+    background-color: var(--main-color);
+    font-size: 16px;
+    font-family: 'Plus Jakarta Sans';
+    padding: 16px 16px;
+}
+
+/* Header  */
+
+header{
+    width: 343px;
+    height: 290px;
+    margin-bottom: 32px;
+}
+
+.head{
+    width: 343px;
+    height: 48px;
+    margin-bottom: 32px;
+}
+
+.head img{
+    width: 48px;
+    height: 48px;
+}
+
+button{
+    width: 176px;
+    height: 44px;
+    border-radius: 28px;
+    border: none;
+    font-weight: 700;
+    font-size: 0.875rem;
+    line-height: 28px;
+    list-style: normal;
+}
+
+.blackButton{
+    background: var(--colorBlack);
+    color: var(--main-color);
+    float: right;
+    margin-top: 2px;
+}
+
+.intro{
+    width: auto;
+    height: 210px;
+}
+
+.title{
+    width: auto;
+    height: 90px;
+    font-weight: 700;
+    font-size: 2.25rem;
+    line-height: 45.36px;
+    text-align: center;
+    color: var(--colorBlack);
+    margin-bottom: 16px;
+}
+
+.description{
+    width: 285px;
+    height: 104px;
+    margin: 0 auto;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 26px;
+    text-align: center;
+    color: var(--colorMediumBrowm);
+}
+
+/* Main - */
+
+ main{
+    width: 343px;
+    height: 2756px; /* 1866 + 338 caurosel + 100 margin bottom + 352 contact*/
+    margin-bottom: 40px;
+ }
+
+/* Images and Subjects Section */
+
+.images{
+    height: 1164px;
+    margin-bottom: 100px;
+}
+
+ /* Group1 - Graphic Design div */
+
+#group1{
+    width: 100%;
+    height: 364px;
+    background-color: var(--colorGalacticBlue);
+    border-radius: 8px;
+    margin-bottom: 24px;
+}
+
+#gd-img{
+    position: relative;
+    top: 24px;
+    left: 191px;
+}
+
+#group1 h3{
+    width: 210px;
+    height: 30px;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 30px;
+    color: var(--colorWhite);
+    margin: 114px 109px 24px 24px;
+}
+
+/* Group2 */
+
+.group2{
+    width: 100%;
+    height: 364px;
+}
+
+/* Subgroup1 */
+
+.subgroup1{
+    width: 100%;
+    height: 182px;
+
+}
+
+.float-child{
+    width: 50%;
+    float: left;
+    width: 159px;
+    height: 182px;
+    border-radius: 8px;
+}
+
+.ui-ux{
+    background-color: var(--colorSummerYellow);
+    margin-right: 25px;
+}
+
+.float-child #ui-ux, #apps{
+    position: relative;
+    top: 24px;
+    left: 70.91px;
+    
+}
+
+.float-child h3{
+    margin: 60px 53.35px 24px 23.77px;
+    color: var(--colorWhite);
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 30px;
+
+}
+
+.apps{
+    background-color: var(--colorLightPink);
+}
+
+/* Subgroup2 */
+
+.subgroup2{
+    width: 100%;
+    height: 158px;
+    margin-top: 24px;
+    background-color: var(--colorLightRed);
+    border-radius: 8px;
+}
+
+#illustrations-img{
+    position: relative;
+    top: 24px;
+    left: 190px;
+}
+
+.subgroup2 h3{
+    width: 162px;
+    height: 30px;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 30px;
+    color: var(--colorWhite);
+    margin: 36px 156px 24px 24px;
+}
+
+/* Group3 */
+
+.group3{
+    width: 100%;
+    height: 389px;
+    margin-top: 24px;
+}
+/* Sub1 */
+
+.subgroup{
+    width: 100%;
+    height: 182px;
+    border-radius: 8px;
+}
+
+.sub1 #photography-img{
+    position: relative;
+    top: 24px;
+    left: 159px;
+}
+.sub1{
+    background-color: var(--colorCyan);
+    margin-bottom: 24px;
+}
+
+/* Sub2 */
+
+.sub2{
+    background-color: var(--colorPurple);
+}
+
+.sub2 #motion-graphics{
+    position: relative;
+    top: 24px;
+    left: 191px;
+}
+
+.subgroup h3{
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 30px;
+    color: var(--colorWhite);
+    height: 30px;
+    margin-top: 60px;
+    margin-left: 24px;
+    margin-bottom: 24px;
+}
+
+.sub1 #photo{
+    width: 182px;
+}
+
+.sub2 #motion{
+    width: 227px;
+}
+
+/* Section Hero's briefs */
+
+.hero-brief{
+    width: 100%;
+    height: 602px;
+    margin-bottom: 100px;
+}
+
+/* Hero div img */
+
+#hero-div{
+    margin-bottom: 40px;
+}
+
+#hero-div #hero-img{
+    width: 300px;
+    height: 300px;
+    margin: 0 12px;
+}
+
+/* Hero Content */
+
+.hero-content{
+    width: 100%;
+    height: 262px;   
+}
+
+.hero-title{
+    width: 100%;
+    height: 66px;
+    color: var(--colorBlack);
+    font-size: 1.625rem;
+    line-height: 33px;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.hero-description{
+    width: 100%;
+    height: 104px;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 26px;
+    text-align: center;
+    color: var(--colorGrey);
+    margin-bottom: 24px;
+}
+
+.pinkButton{
+    background: var(--colorLightRed);
+    color: var(--colorWhite);
+    margin: 0 84px;
+}
+
+/* Carousel Style */
+
+.container{
+    height: 338px;
+    margin-bottom: 100px;
+}
+
+.container-heading{
+    width: 102px;
+    height: 30px;
+    margin: 0 auto 32px auto;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 30px;
+    text-align: center;
+    color: var(--colorBlack);
+}
+
+.carousel{
+    max-width: 600px;
+    position: relative;
+    margin: 0 auto 32px auto;
+}
+
+/* Style for carousel pics */
+
+.carousel .carousel-item,
+.carousel .carousel-item-hidden{
+    display: none;
+}
+
+.carousel .carousel-item-visible{
+    display: block;
+}
+
+.carousel .carousel-item img{
+    width: 100%;
+    max-width: 600px;
+    height: 180px;
+    border-radius: 8px;
+}
+
+/* Style for the Carousel  */
+
+.carousel-btns{
+    width: 144px;
+    height: 64px;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+}
+
+.btn{
+    width: 64px;
+    height: 64px;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: 15px 16px;
+    border-radius: 50%;
+    background-position: center;
+    cursor: pointer;
+}
+
+.btn-left{
+    background-image: url(./src/assets/icon-arrow-left.svg);
+    margin-right: 16px;
+}
+
+.btn-right{
+    background-image: url(./src/assets/icon-arrow-right.svg);
+}
+
+@keyframes fadeVisibililty {
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
+
+}
+
+/* Contact Section */
+
+.contact{
+    width: 100%;
+    height: 352px;
+    background-color: var(--colorBlack);
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.contact-group{
+    width: 295px;
+    height: 255px;
+    padding: 49px 24px;
+}
+
+.contact-title{
+    width: 240px;
+    height: 33px;
+    font-size: 1.625rem;
+    line-height: 32.76px;
+    text-align: center;
+    font-weight: 700;
+    color: var(--main-color);
+    margin: 0 auto 24px auto;
+}
+
+.contact-desc{
+    width: 295px;
+    height: 130px;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 26px;
+    text-align: center;
+    color: var(--main-color);
+    margin: 0 auto 24px auto;
+}
+
+#contact-button{
+    margin: 0 auto 48px 55px;
+}
+
+/* Footer */
+
+footer{
+    width: 100%;
+    height: 48px;
+} 
+
+footer img{
+    width: 48px;
+    height: 48px;
+}
+
+/* Media Query for Tablet 
+width: 768px & height: 2762px  */
+
+@media only screen and (min-width: 376px){
+        /* Tablet Body */
+  body{
+    width: 768px;
+    height: 2762px;
+    padding: 34px 40px ;
+}
+
+    /* Header */
+
+    header{
+        width: 689px;
+        height: 266px;
+        margin-bottom: 64px;
+    }
+
+    .head{
+        width: auto;
+        height: 64px;
+        margin-bottom: 64px;
+    }
+
+    .head img{
+        width: 64px;
+        height: 64px;
+    }
+
+    .button-tablet{
+        width: 228px;
+        height: 56px;
+        font-size: 1rem;
+        margin-top: 4px;
+    }
+
+    .intro{
+        width: auto;
+        height: 138px;
+    }
+
+    .title{
+        height: 55px;
+        font-size: 2.75rem;
+        line-height: 55px;
+        margin-bottom: 27px;
+    }
+
+    .description{
+        width: 573px;
+        height: 56px;
+        font-size: 1.125rem;
+        line-height: 28px; 
+    }
+
+    /* Main - Tablet size */
+
+    main{
+        width: 690px;   
+        height: 2222px; 
+        margin-bottom: 56px;
+    }
+
+    /* Images and Subjects Section */
+
+    .images{
+        height: 570px;
+        margin-bottom: 120px;
+    }
+
+    /* Group1 - Graphic Design div */
+
+    #group1, .group2{
+        display: inline-block;
+    }
+
+    #group1{
+        width: 333px;
+        margin: 0 21px 0 0; 
+    }
+
+    #gd-img{
+        left: 180px;
+    }
+
+    /* Group2 */
+
+    .group2{
+        width: 333px;
+    }
+
+    /* Subgroup1 */
+
+    .subgroup1{
+        display: flexbox;
+        flex-direction: row;
+    }
+
+    .float-child{
+        width: 155px;
+    }
+
+    .ui-ux{
+        margin-right: 23px;
+    }
+
+    /* Subgroup2 */
+
+    .subgroup2{
+        width: 333px;
+    }
+
+    /* Group3 */
+
+    .group3{
+        display: flexbox;
+        flex-direction: row;
+        height: 182px;
+    }
+
+    .subgroup{
+        width: 333px;
+        display: inline-block;
+    }
+
+    .sub1{
+        margin: 0 21px 0 0;
+    }
+
+    /* Section Hero's briefs */
+
+    .hero-brief{
+        position: relative;
+        left: -83px;
+        width: 772px; 
+        height: 364px;
+        margin-bottom: 120px;
+        
+    }
+
+    /* Hero div img */
+
+    #hero-div{
+        margin: 0 42px 0 0;
+    }
+
+    #hero-div, .hero-content{
+        display: inline-block;
+    }
+
+    #hero-div #hero-img{
+        width: 364px;
+        height: 364px;
+        
+    }
+
+    /* Hero Content */
+
+    .hero-content{
+        width: 339px;
+        height: 364px;
+        vertical-align: top;
+    }
+
+    .hero-title{
+        height: 120px;
+        font-size: 2rem;
+        line-height: 40.32px;
+        text-align: left;
+    }
+
+    .hero-description{
+        height: 140px;
+        font-weight: 500;
+        font-size: 1.125rem;
+        line-height: 28px;
+        text-align: left;
+    }
+
+    .pinkButton{
+        margin: 0;
+    }
+
+    /* Carousel Style */
+
+    .container{
+        height: 576px;
+        margin-bottom: 120px;
+    }
+
+    .container-heading{
+        width: 136px;
+        height: 40px;
+        margin-bottom: 56px;
+        font-size: 2rem;
+        line-height: 32px;
+    }
+
+    .carousel{
+        max-width: 800px;
+    }
+
+    /* Style for carousel pics */
+
+    .carousel .carousel-item img{
+        width: 100%;
+        max-width: 800px;
+        height: 360px;
+    }
+
+    /* Contact Section */
+
+    .contact-group{
+        width: 540px;
+        height: 232px;
+        padding: 56px 75px 64px 75px;
+    }
+
+    .contact-title{
+        width: 100%;
+        height: 40px;
+        font-size: 2rem;
+        line-height: 40.32px;
+        margin-bottom: 26px;
+    }
+
+    .contact-desc{
+        width: 100%;
+        height: 84px;
+        font-size: 1.125rem;
+        line-height: 28px;
+        margin-bottom: 26px;
+    }
+
+    #contact-button{
+        margin-left: 150px;
+    }
+
+    /* Footer */
+
+    footer{
+        height: 64px;
+        margin-bottom: 64px;
+    }
+
+    footer img{
+        width: 64px;
+        height: 64px;
+    }
+}
+
+/* Media Query for Desktop
+width: 1440px & height: 2595px  */
+@media only screen and (min-width: 769px){
+
+    body{
+        width: 1440px;
+        height: 2595px;
+        padding: 34px 165px;
+    }
+
+    header{
+        width: 1110px;
+        height: 280px;
+        margin-bottom: 66px;
+    }
+
+    .intro{
+        width: 752px;
+        height: 150px;
+        margin: 0 179px;
+    }
+
+    .title{
+        height: 71px;
+        font-size: 3.5rem;
+        line-height: 70.56px;
+        margin-bottom: 23px;
+    }
+
+    .description{
+        width: 730px;
+    }
+
+    .btn-black:active{
+        background-color: var(--colorGalacticBlue);
+    }
+
+
+    /* Main - Desktop size */
+
+    main{
+        width: 1110px;
+        height: 2017px;
+    }
+
+    /* Images and Subjects Section */
+
+    .images{
+        height: 364px;
+        margin-bottom: 136px;
+    }
+
+    /* Group1 - Graphic Design div */
+
+    #group1{
+        width: 354px;
+        margin-right: 22px;
+    }
+
+    #group1, .group2{
+        vertical-align: top;
+    }
+
+    /* Group2 */
+
+    .group2{
+        width: 354px;
+        margin-right: 20px;
+    }
+
+    /* Subgroup1 */
+
+    .float-child{
+        width: 164px;
+    }
+
+    /* Subgroup2 */
+
+    .subgroup2{
+        width: 354px;
+    }
+
+    /* Group3 */
+
+    .group3{
+        width: 354px;
+        display: inline-block;
+        height: 364px;
+        margin: 0;
+        flex-direction: column;
+    }
+
+    .subgroup{
+        width: 100%;
+    }
+
+    .sub1{
+        margin: 0 0 24px 0;
+    }
+
+    .sub2{
+        height: 158px;
+    }
+
+    .sub2 h3{
+        margin-top: 40px;
+    }
+
+    /* Section Hero's briefs */
+
+    .hero-brief{
+        width: 1110px;
+        height: 445px;
+        margin-bottom: 144px;
+        position: static;
+    }
+
+    /* Hero div img */
+
+    #hero-div{
+        margin-right: 122px;
+    }
+
+    #hero-div #hero-img{
+        width: 445px;
+        height: 445px;
+        margin: 0;
+    }
+
+    /* Hero Content */
+
+    .hero-content{
+        width: 540px;
+        height: 306px;
+        margin-top: 80px;
+        
+    }
+    
+    .hero-title{
+        height: 100px;
+        font-size: 2.5rem;
+        line-height: 50px;
+        margin-bottom: 34px;
+    }
+
+    .hero-description{
+        height: 84px;
+        margin-bottom: 34px;
+    }
+
+    .btn-LightRed:active{
+        background-color: var(--colorSummerYellow);
+    }
+
+     /* Carousel Style */
+
+     .container{
+        margin-bottom: 32px;
+    }
+
+    .carousel{
+        max-width: 1000px;
+        margin-bottom: 56px;
+    }
+
+     /* Style for carousel pics */
+
+     .carousel .carousel-item img{
+        max-width: 100%;
+        
+     }
+
+     /* Contact Section */
+
+     .contact{
+        height: 320px;
+     }
+
+     .contact-group{
+        height: 159px;
+        padding: 81px;
+     }
+
+     .contact-title{
+        height: 50px;
+        font-size: 2.5rem;
+        line-height: 50.40px;
+        margin-bottom: 25px;
+        text-align: left;
+     }
+
+     .contact-desc{
+        text-align: left;
+     }
+
+     #contact-button{
+        position: relative;
+        top: -132px;
+        left: 560px;
+     }
+}
+
+
+
+
+
+
