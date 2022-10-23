@@ -36,8 +36,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/single-page-design-portfolio-TKgNEP8FpP)
-- Live Site URL: [Add live site URL here](https://single-page-design-portfolio-7zh14trkq-aavv8931.vercel.app/)
+- Solution URL: [FrontEnd Solution](https://www.frontendmentor.io/solutions/single-page-design-portfolio-TKgNEP8FpP)
+- Live Site URL: [Vercel-app](https://single-page-design-portfolio-7zh14trkq-aavv8931.vercel.app/)
 
 ## My process
 
